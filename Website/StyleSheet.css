@@ -1,0 +1,122 @@
+﻿body {
+    background-image: url("img/background.jpg");
+    margin: 0;
+    line-height: 150%;
+}
+
+* {
+    font-size: 12pt; 
+    font-family: Corbel, Tahoma, Verdana; 
+    color: #000000;
+}
+
+/* === Containers === */
+
+#mainContentArea {
+    display: table; 
+    position: absolute; 
+    height: 100%;
+    width: 100%;
+}
+
+#contentBox {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#title {
+    font-size: 59pt;
+    margin: 30px 0 70px 0;
+    color: #17A5E8;
+    font-family: corbel;
+}
+
+a {
+    text-decoration:none;
+}
+
+.link a {
+    font-family:Corbel, Arial, Helvetica;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.header {
+    background-image: url("img/loginbackground.png");
+    font-family: corbel;
+    color: #8B8B8B;
+    font-size: 23px;
+    padding: 10px 0 10px 0;
+}
+
+#footer {
+    background-color: #FAFAFA;
+}
+
+.pageContent {
+    font-family: corbel;
+    color: #000000;
+    font-size: 12px;
+    padding: 20px;
+    width: auto;
+    background-color: #FDFDFD;
+}
+
+
+#blueBox {
+    width: 285px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#footer a {
+    font-size:9px;
+    color:#BDCDEC;
+}
+
+html, body {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#loginform {
+    width: 100%;
+}
+
+.username {
+    background-image: url("img/userbackground.png");
+    margin-bottom: 20px;
+    width: 100%;
+    background-position-y: -1px;
+    background-position-x: -5px;
+    text-indent: 42px;
+    font-family: arial;
+}
+
+.password {
+    background-image: url("img/passwordbackground.png");
+    margin-bottom: 20px;
+    width: 100%;
+    background-position-y: -1px;
+    background-position-x: -5px;
+    text-indent: 42px;
+}
+
+.submitbutton {
+    width: 50%;
+    background-color: #17A5E8;
+    color: rgb(244, 244, 244);
+    font-size: 11pt;
+}
+
+.lostpassword {
+    margin-right: 5px;
+    font-size: 9pt;
+}
+
+.registernow {
+    font-size: 9pt;
+}
